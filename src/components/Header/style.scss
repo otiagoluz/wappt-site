@@ -1,0 +1,51 @@
+@import '../../assets/sass/variables.scss';
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.cabecalhoPrincipal {
+	padding: 20px 0;
+}
+
+.logo-nav {
+  width: 150px;
+}
+
+.nav-link {
+  padding: 10px;
+  margin-left: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.nav-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 15px;
+	margin-bottom: 10px;
+  color: #fff;
+  background-color: #04E09D;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.nav-button:hover {
+  background-color: rgb(2, 196, 137);
+}
+
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
