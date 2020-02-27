@@ -14,7 +14,7 @@ export default () => (
           <Link className="nav-link" to="/">PLANOS</Link>
           <Link className="nav-link" to="/">PORTFÓLIO</Link>
           <Link className="nav-link" to="/">SOBRE</Link>
-          <button className="nav-button" href="/">WAPPT</button>
+          <button className="nav-button" href="/">FALE CONOSCO</button>
         </ul>
       </nav>
     </div>
