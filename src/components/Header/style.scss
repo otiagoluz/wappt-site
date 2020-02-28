@@ -16,49 +16,52 @@
     .logo-nav {
       width: 150px;
     }
-  }
+    .nav-link {
+      padding: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      color: $color-white;
+      text-decoration: none;
+      font-size: 0.9em;
+      transition: 0.3s;
 
+      &:hover {
+        color: $color-blue-dark;
+      }
+    }
+  }
+}
+
+.header-block {
+  transition: 500ms;
+  width: 100%;
+  height: 85px;
+  background-color: $color-white;
+  position: fixed;
+  z-index: 1000;
+
+  .logo-nav {
+    width: 150px;
+  }
   .nav-link {
     padding: 10px;
     margin-left: 10px;
-    margin-bottom: 10px;
-    color: $cor-branca;
+    margin-bottom: 5px;
+    color: $color-blue-dark !important;
     text-decoration: none;
     font-size: 0.9em;
     transition: 0.3s;
-  }
 
-  .nav-link:hover {
-    color:#3C709D;
-  }
-
-  .nav-button {
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-    color: $cor-branca;
-    background-color: $cor-green;
-    border: none;
-    border-bottom: 0px;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 0.9em;
-    transition: 0.3s;
-  }
-
-  .nav-button:hover {
-    background-color: #05C489;
-  }
-
-  .nav-button:focus {
-    outline: thin dotted;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
+    &:hover {
+      color: $color-blue-dark;
+    }
   }
 
 }
+
+
+
+
 
 
 

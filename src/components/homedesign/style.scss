@@ -1,27 +1,26 @@
-@import '../../assets/sass/variables.scss';
-@import '../../assets/sass/mixin.scss';
+@import "../../assets/sass/variables.scss";
+@import "../../assets/sass/mixin.scss";
 
 .home-design {
-    max-width: 1200px;
-    margin: auto;
-    color: $cor-gray;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+  max-width: 1200px;
+  margin: auto;
+  color: $color-gray;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
 
-    .texto {
-        max-width: 40%;
-    
-    }
+  .texto {
+    max-width: 40%;
+  }
 
-    h3 {
-        font-size: 2em;
-        margin-top: 80px;  
-    }
+  h3 {
+    font-size: 2em;
+    margin-top: 80px;
+  }
 
-    p {
-        font-size: 1.2em;
-        line-height: 1.5em;
-        max-width: 65%;
-    }
+  p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    max-width: 65%;
+  }
 }

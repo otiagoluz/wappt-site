@@ -3,8 +3,8 @@ import "./style.scss"
 
 import { Link } from "gatsby"
 
-export default () => (
+export default ({ children }) => (
   <Link to="/">
-    <button className="btn-contrate">Contrate Agora</button>
+    <button className="nav-button">{children}</button>
   </Link>
 )

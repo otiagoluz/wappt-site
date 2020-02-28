@@ -1,0 +1,27 @@
+@import '../../assets/sass/variables.scss';
+
+.nav-button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: $color-white;
+  background-color: $color-green;
+  border: none;
+  border-bottom: 0px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 0.9em;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #05C489;
+  }
+  
+  &:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+  }
+}

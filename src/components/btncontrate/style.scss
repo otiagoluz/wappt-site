@@ -5,8 +5,8 @@
   padding: 10px;
   padding-left: 20px;
   padding: 15px 25px 15px 25px;
-  color: $cor-branca;
-  background-color: $cor-blue;
+  color: $color-white;
+  background-color: $color-blue;
   border: none;
   text-decoration: none;
   border-radius: 10px;
@@ -16,7 +16,7 @@
   @include shadow(2px 2px 12px -3px rgba(0,0,0,0.53));
 }  
 .btn-contrate:hover {
-    background-color: $cor-blue-dark;
+    background-color: $color-blue-dark;
   }
 
 .btn-contrate:focus {

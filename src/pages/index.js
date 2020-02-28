@@ -1,9 +1,9 @@
 import React from "react"
 import Header from '../components/Header/index'
-import Banner from '../components/banner/index'
-import Homedesign from '../components/homedesign/index'
-import Homegoogle from '../components/homegoogle/index'
-import Homeprocesso from '../components/homeprocesso/index'
+import Banner from '../components/Banner/index'
+import HomeDesign from '../components/HomeDesign/index'
+import HomeGoogle from '../components/HomeGoogle/index'
+import HomeProcesso from '../components/HomeProcesso/index'
 import '../assets/sass/global.scss'
 
 export default () => (
@@ -11,9 +11,9 @@ export default () => (
 <>
   <Header/>
   <Banner/>
-  <Homedesign/>
-  <Homegoogle/>
-  <Homeprocesso/>
+  <HomeDesign/>
+  <HomeGoogle/>
+  <HomeProcesso/>
 </>
 
 )
