@@ -1,0 +1,37 @@
+@import '../../assets/sass/variables.scss';
+
+.container-banner {
+    max-width: 1200px;
+    margin: auto;
+    //border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+
+    .slogan {
+        max-width: 40%;
+
+        h2 {
+            font-size: 2.5em;
+            color: $cor-branca;
+            //max-width: 430px;
+        }
+    
+        p {
+            font-size: 1em;
+            color: $cor-branca;
+            // max-width: 430px;
+            line-height: 1.6em;
+        }
+    }
+
+
+    img {
+        text-align: right;
+        //border: 1px solid yellow;
+        max-width: 650px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../assets/sass/variables.scss';
+@import '../../assets/sass/mixin.scss';
+
+.btn-contrate {
+  padding: 10px;
+  padding-left: 20px;
+  padding: 15px 25px 15px 25px;
+  color: $cor-branca;
+  background-color: $cor-blue;
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.3s;
+  @include shadow(2px 2px 12px -3px rgba(0,0,0,0.53));
+}  
+.btn-contrate:hover {
+    background-color: $cor-blue-dark;
+  }
+
+.btn-contrate:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+  }

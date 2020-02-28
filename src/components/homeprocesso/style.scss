@@ -1,0 +1,35 @@
+@import '../../assets/sass/variables.scss';
+
+.home-processo {
+    max-width: 1200px;
+    margin: auto;
+    color: $cor-gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    .texto {
+        max-width: 45%;   
+    }
+
+    h3 {
+        font-size: 2em;
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        max-width: 100%;
+        padding-right: 25%;
+    }
+
+    .processo {
+        width: 580px;
+        height: 590px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+}

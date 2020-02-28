@@ -13,8 +13,8 @@ export default () => (
         <ul>
           <Link className="nav-link" to="/">PLANOS</Link>
           <Link className="nav-link" to="/">PORTFÓLIO</Link>
-          <Link className="nav-link" to="/">ABOUT</Link>
-          <button className="nav-button" href="/">FALE CONOSCO</button>
+          <Link className="nav-link" to="/">SOBRE</Link>
+          <Link to="/"><button className="nav-button">FALE CONOSCO</button></Link>
         </ul>
       </nav>
     </div>
